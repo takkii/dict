@@ -4,7 +4,7 @@
 
 <div align="center">
   <p><h1>Ruby入力補完辞書です</h1></p>
-  <p><b> Copyright (c) 2020-2025 Takayuki Kamiyama</b></p>
+  <p><b> Copyright (c) 2017-2025 Takayuki Kamiyama</b></p>
   <p> 設定例は、<a href="https://github.com/takkii/ruby-dict/wiki/manual">こちら</a>です。</p>
 </div>
 
