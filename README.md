@@ -3,7 +3,7 @@
 <br />
 
 <div align="center">
-  <p><h1>入力補完辞書です</h1></p>
+  <p><h1>入力補完辞書</h1></p>
   <p><b> Copyright (c) 2017-2025 Takayuki Kamiyama</b></p>
   <p> 設定例は、<a href="https://github.com/takkii/ruby-dict/wiki/manual">こちら</a>です。</p>
 </div>
