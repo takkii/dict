@@ -1,0 +1,327 @@
+!{:!, _, [value]} do
+!value
+!value do
+(..) do
+@{:__aliases__, _meta, _args} do
+@{name, meta, args} do
+@expr
+^var, do: error!([var])
+__before_compile__(_env) do
+__before_compile__(env) do
+__CALLER__, do: error!([])
+__deriving__(module, struct, options) do
+__DIR__, do: error!([])
+__ENV__, do: error!([])
+__MODULE__, do: error!([])
+__STACKTRACE__, do: error!([])
+__using__(_) do
+__using__(_opts) do
+__using__(options) do
+__using__(opts) do
+Access
+Agent
+alias!({:__aliases__, meta, args}) do
+alias!(alias) when is_atom(alias) do
+alias(module, opts), do: error!([module, opts])
+Application
+ArgumentError
+ArithmeticError
+Atom
+BadArityError
+BadBooleanError
+BadFunctionError
+BadMapError
+BadStructError
+Base
+Behaviour
+Behaviour deprecated
+binding(context \\ nil) do
+Bitwise
+Calendar
+Calendar.ISO
+Calendar.TimeZoneDatabase
+Calendar.UTCOnlyTimeZoneDatabase
+case(condition, clauses), do: error!([condition, clauses])
+CaseClauseError
+Code
+Code & Macros
+Code.Fragment
+Code.LoadError
+Collectable
+Collections & Enumerables
+compile_env!(app, key_or_path) do
+compile_env(app, key_or_path, default \\ nil) do
+CompileError
+cond(clauses), do: error!([clauses])
+CondClauseError
+Config
+Config.Provider
+Config.Reader
+config_env() do
+config_target() do
+Data Types
+Date
+Date.Range
+DateTime
+dbg(code \\ quote(do: binding()), options \\ []) do
+dedup(callback, fun \\ nil) do
+def(_) do
+def({_, _, args}) when args == [] or is_atom(args) do
+def({name, _, args}) when is_atom(name) and is_list(args) do
+def(call, expr \\ nil) do
+def(signature)
+defadd do
+defcallback(spec) do
+defdelegate(funs, opts) do
+defexception(fields) do
+defguard(args, expr) do
+defguard(guard) do
+defguardp(guard) do
+defimpl(name, opts, do_block \\ []) do
+defkv(kv) do
+defmacro
+defmacro(call, expr \\ nil) do
+defmacrocallback(spec) do
+defmacrop(call, expr \\ nil) do
+defmodule(alias, do: block) do
+defmodule(alias, do_block)
+defmodule_with_length(name, do: block) do
+defoverridable(keywords_or_behaviour) do
+defp(call, expr \\ nil) do
+defprotocol(name, do: block) do
+defprotocol(name, do_block)
+defrecord(name, tag \\ nil, kv) do
+defrecordp(name, tag \\ nil, kv) do
+defsequence(name, code, terminator \\ "m") do
+defstruct(fields) do
+Deprecated
+derive(protocol, module, options \\ []) do
+destructure(left, right) when is_list(left) do
+Dict
+Dict deprecated
+drop(fun \\ nil) do
+drop_every(nth, fun \\ nil) do
+drop_while(callback, fun \\ nil) do
+Duration
+DynamicSupervisor
+Enum
+Enum.EmptyError
+Enum.OutOfBoundsError
+Enumerable
+ErlangError
+Exception
+Exceptions
+File
+File.CopyError
+File.Error
+File.LinkError
+File.RenameError
+File.Stat
+File.Stream
+filter(callback, fun \\ nil) do
+filter_map(filter, mapper, fun \\ nil) do
+first..last do
+first..last//step do
+Float
+for(args), do: error!([args])
+Function
+FunctionClauseError
+GenEvent
+GenEvent deprecated
+GenServer
+get_and_update_in(path, fun) do
+HashDict
+HashDict deprecated
+HashSet
+HashSet deprecated
+if(condition, clauses) do
+import(module, opts), do: error!([module, opts])
+import_config(file) do
+Inspect
+Inspect.Algebra
+Inspect.Error
+Inspect.Opts
+Integer
+interference do
+IO
+IO & System
+IO.ANSI
+IO.Stream
+IO.StreamError
+is_exception(term) do
+is_exception(term, name) do
+is_nil(term) do
+is_struct(term) do
+is_struct(term, name) do
+is_var(expr) do
+JSON
+JSON.DecodeError
+JSON.Encoder
+Kernel
+Kernel.ParallelCompiler
+Kernel.SpecialForms
+Kernel.TypespecError
+KeyError
+Keyword
+left && right do
+left :: right, do: error!([left, right])
+left || right do
+left |> right do
+left <> right do
+left = right, do: error!([left, right])
+left and right do
+left in right do
+left or right do
+lib/elixir/lib/agent.ex
+lib/elixir/lib/application.ex
+lib/elixir/lib/behaviour.ex
+lib/elixir/lib/bitwise.ex
+lib/elixir/lib/config.ex
+lib/elixir/lib/dict.ex
+lib/elixir/lib/dynamic_supervisor.ex
+lib/elixir/lib/gen_event.ex
+lib/elixir/lib/gen_server.ex
+lib/elixir/lib/inspect.ex
+lib/elixir/lib/io/ansi.ex
+lib/elixir/lib/kernel/special_forms.ex
+lib/elixir/lib/kernel/utils.ex
+lib/elixir/lib/macro.ex
+lib/elixir/lib/module.ex
+lib/elixir/lib/module/types/helpers.ex
+lib/elixir/lib/protocol.ex
+lib/elixir/lib/record.ex
+lib/elixir/lib/stream/reducers.ex
+lib/elixir/lib/supervisor.ex
+lib/elixir/lib/task.ex
+List
+List.Chars
+Macro
+Macro.Env
+macro_inspect(value) do
+Map
+map(callback, fun \\ nil) do
+map_every(nth, mapper, fun \\ nil) do
+MapSet
+match?(pattern, expr) do
+MatchError
+MismatchedDelimiterError
+MissingApplicationsError
+Module
+NaiveDateTime
+no_interference do
+Node
+OptionParser
+OptionParser.ParseError
+PartitionSupervisor
+Path
+pop_in(path) do
+Port
+Process
+Processes & Applications
+Protocol
+Protocol.UndefinedError
+Protocols
+put_in(path, value) do
+quote(opts, block), do: error!([opts, block])
+raise(exception, attributes) do
+raise(message) do
+Range
+read do
+receive(args), do: error!([args])
+Record
+Regex
+Regex.CompileError
+Registry
+reject(callback, fun \\ nil) do
+require(module, opts), do: error!([module, opts])
+reraise(exception, attributes, stacktrace) do
+reraise(message, stacktrace) do
+RuntimeError
+scan2(callback, fun \\ nil) do
+scan3(callback, fun \\ nil) do
+Set
+Set deprecated
+sigil_C({:<<>>, _meta, [string]}, []) when is_binary(string) do
+sigil_c({:<<>>, _meta, pieces}, []) do
+sigil_C(term, modifiers)
+sigil_D({:<<>>, _, [string]}, []) do
+sigil_D(date_string, modifiers)
+sigil_N({:<<>>, _, [string]}, []) do
+sigil_N(naive_datetime_string, modifiers)
+sigil_r({:<<>>, _meta, [string]}, options) when is_binary(string) do
+sigil_r({:<<>>, meta, pieces}, options) do
+sigil_r(term, modifiers)
+sigil_S({:<<>>, _, [binary]}, []) when is_binary(binary), do: binary
+sigil_s({:<<>>, _, [piece]}, []) when is_binary(piece) do
+sigil_s({:<<>>, line, pieces}, []) do
+sigil_S(term, modifiers)
+sigil_T({:<<>>, _, [string]}, []) do
+sigil_T(time_string, modifiers)
+sigil_U({:<<>>, _, [string]}, []) do
+sigil_U(datetime_string, modifiers)
+sigil_w({:<<>>, _meta, [string]}, modifiers) when is_binary(string) do
+sigil_w({:<<>>, meta, pieces}, modifiers) do
+sigil_w(term, modifiers)
+sigil_x(term, [?r]) do
+sigil_x(term, _modifiers) do
+squared(x) do
+Stream
+String
+String.Chars
+StringIO
+super(args), do: error!([args])
+Supervisor
+Supervisor.Spec
+Supervisor.Spec deprecated
+SyntaxError
+System
+System.EnvError
+SystemLimitError
+take(fun \\ nil) do
+take_every(nth, fun \\ nil) do
+take_while(callback, fun \\ nil) do
+tap(value, fun) do
+Task
+Task.Supervisor
+then(value, fun) do
+Time
+to_char_list(arg) do
+to_charlist(term) do
+to_string(term) do
+TokenMissingError
+try(args), do: error!([args])
+TryClauseError
+Tuple
+UndefinedFunctionError
+UnicodeConversionError
+uniq_by(callback, fun \\ nil) do
+unless(condition, clauses) do
+unless(expr, opts) do
+unquote(:%)(struct, map), do: error!([struct, map])
+unquote(:%{})(args), do: error!([args])
+unquote(:&)(expr), do: error!([expr])
+unquote(:.)(left, right), do: error!([left, right])
+unquote(:__aliases__)(args), do: error!([args])
+unquote(:__block__)(args), do: error!([args])
+unquote(:{})(args), do: error!([args])
+unquote(:<<>>)(args), do: error!([args])
+unquote(:fn)(clauses), do: error!([clauses])
+unquote(:unquote)(expr), do: error!([expr])
+unquote(:unquote_splicing)(expr), do: error!([expr])
+unquote(name)(args \\ []) do
+unquote(name)(record, args) do
+update_in(path, fun) do
+URI
+URI.Error
+use(module, opts \\ []) do
+var!({name, meta, atom}, context) when is_atom(name) and is_atom(atom) do
+var!(other, _context) do
+var!(var, context \\ nil)
+Version
+Version.InvalidRequirementError
+Version.InvalidVersionError
+Version.Requirement
+with(args), do: error!([args])
+with_index(fun \\ nil) do
+WithClauseError
+write do
