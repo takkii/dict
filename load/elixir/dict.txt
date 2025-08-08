@@ -2,6 +2,9 @@
 !value
 !value do
 (..) do
+:file
+:line
+:ok
 @{:__aliases__, _meta, _args} do
 @{name, meta, args} do
 @expr
@@ -104,11 +107,13 @@ drop_every(nth, fun \\ nil) do
 drop_while(callback, fun \\ nil) do
 Duration
 DynamicSupervisor
+end
 Enum
 Enum.EmptyError
 Enum.OutOfBoundsError
 Enumerable
 ErlangError
+error
 Exception
 Exceptions
 File
@@ -123,6 +128,9 @@ filter_map(filter, mapper, fun \\ nil) do
 first..last do
 first..last//step do
 Float
+fn
+for(args), do: error!([args])
+format_error
 for(args), do: error!([args])
 Function
 FunctionClauseError
@@ -130,6 +138,7 @@ GenEvent
 GenEvent deprecated
 GenServer
 get_and_update_in(path, fun) do
+handle_open
 HashDict
 HashDict deprecated
 HashSet
@@ -210,6 +219,7 @@ Module
 NaiveDateTime
 no_interference do
 Node
+open
 OptionParser
 OptionParser.ParseError
 PartitionSupervisor
@@ -222,6 +232,7 @@ Protocol
 Protocol.UndefinedError
 Protocols
 put_in(path, value) do
+puts
 quote(opts, block), do: error!([opts, block])
 raise(exception, attributes) do
 raise(message) do
