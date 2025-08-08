@@ -131,6 +131,7 @@ Float
 fn
 for(args), do: error!([args])
 format_error
+for(args), do: error!([args])
 Function
 FunctionClauseError
 GenEvent
